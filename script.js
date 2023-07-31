@@ -12,16 +12,6 @@ buttons.forEach((a) => {
             display.value = eval(display.value)
 
         }
-        // else if(a.textContent == 'Light mode'){
-        //     document.body.style.backgroundColor = "white"
-        //     bigContainer.style.backgroundColor = "rgba(0, 0, 0, 0.9)"
-        //     buttons.forEach((a) => {
-        //         a.style.color = "white"
-        //         a.style.backgroundColor = "black"
-        //         a.style.boxShadow = "0px 2px 3px grey"
-        //     })
-        //     display.style.boxShadow = "0 -2px 3px rgba(255, 255, 255, 0.4) "
-        // }
         else if(a.textContent == 'sq'){
             display.value = Math.sqrt(display.value)
         }
